@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TwainScanning/1.1.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net20/TwainScanning.dll": {}
+        },
+        "runtime": {
+          "lib/net20/TwainScanning.dll": {}
+        }
+      },
+      "TwainUI/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TwainUI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TwainUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TwainScanning/1.1.1.5": {
+      "sha512": "2C2fdmVElvPQ5ZqFFrZpii8TRjqsEI79tNbA4C0BF3xlbpCrtmUXJSdERAxWznNuSk1gZtt2L2ljISl2SGj+mw==",
+      "type": "package",
+      "path": "twainscanning/1.1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/TwainScanning.dll",
+        "release_info.txt",
+        "twainscanning.1.1.1.5.nupkg.sha512",
+        "twainscanning.nuspec"
+      ]
+    },
+    "TwainUI/1.0.0": {
+      "type": "project",
+      "path": "../TwainUI/TwainUI.csproj",
+      "msbuildProject": "../TwainUI/TwainUI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TwainScanning >= 1.1.1.5",
+      "TwainUI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Timon\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\2020-development\\blazor-app-2-13\\BlazorScannerApp\\BlazorScannerApp\\BlazorScannerApp.csproj",
+      "projectName": "BlazorScannerApp",
+      "projectPath": "E:\\2020-development\\blazor-app-2-13\\BlazorScannerApp\\BlazorScannerApp\\BlazorScannerApp.csproj",
+      "packagesPath": "C:\\Users\\Timon\\.nuget\\packages\\",
+      "outputPath": "E:\\2020-development\\blazor-app-2-13\\BlazorScannerApp\\BlazorScannerApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Timon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "E:\\2020-development\\blazor-app-2-13\\BlazorScannerApp\\TwainUI\\TwainUI.csproj": {
+              "projectPath": "E:\\2020-development\\blazor-app-2-13\\BlazorScannerApp\\TwainUI\\TwainUI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "TwainScanning": {
+            "target": "Package",
+            "version": "[1.1.1.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TwainScanning 1.1.1.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "TwainScanning",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

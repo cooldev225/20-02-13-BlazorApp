@@ -1,0 +1,8 @@
+BlazorScannerApp - Copy/
+ref/
+Samples/
+scannerjs/
+scannerjs.javascript-scanner-access-in-browsers-chrome-ie.scanner.js-master/
+TwainScanning/
+*.zip
+*.exe

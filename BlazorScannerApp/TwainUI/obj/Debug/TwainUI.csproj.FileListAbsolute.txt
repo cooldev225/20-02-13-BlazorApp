@@ -1,0 +1,11 @@
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\obj\Debug\TwainUI.csprojAssemblyReference.cache
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\obj\Debug\TwainUI.Form1.resources
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\obj\Debug\TwainUI.Properties.Resources.resources
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\obj\Debug\TwainUI.csproj.GenerateResource.cache
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\bin\Debug\TwainUI.exe.config
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\bin\Debug\TwainUI.exe
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\bin\Debug\TwainUI.pdb
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\bin\Debug\TwainScanning.dll
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\obj\Debug\TwainUI.csproj.CopyComplete
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\obj\Debug\TwainUI.exe
+E:\2020-development\blazor-app-2-13\BlazorScannerApp\TwainUI\obj\Debug\TwainUI.pdb

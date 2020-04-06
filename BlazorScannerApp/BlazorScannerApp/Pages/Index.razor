@@ -1,0 +1,22 @@
+﻿@page "/"
+@using BlazorScannerApp.Data
+@inject TwainTool twainService
+
+<h1>Document Scanning</h1>
+
+<p>This page demonstrate to scan a givien document by using TwainScanning package.<button>Scan</button></p>
+
+
+<div style="width: 99%;
+    height: 600px;
+    background: #f3f9ff;
+    border-width: 1px;
+    border-color: #15b1b1;
+    border-style: solid;"></div>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        twainService.StartupForm();
+    }
+}
